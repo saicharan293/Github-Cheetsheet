@@ -1,0 +1,29 @@
+commands
+--------
+
+Fresh Repository
+----------------
+git init
+git add '-file-name'
+or
+git add .
+git commit -m "-message"
+git branch -M main
+git remote add origin -url-link
+git push -u origin main
+
+Existing Repository:
+---------------------
+git init
+git status = to check whether changes are visible or not
+git add '-file-name'
+or 
+git add .
+git commit -m "-message"
+git status = to check whether changes are staged or not
+git push -u origin main
+
+
+Branching the Existing Repository:
+----------------------------------
+
