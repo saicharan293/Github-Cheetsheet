@@ -27,3 +27,16 @@ git push -u origin main
 Branching the Existing Repository:
 ----------------------------------
 
+git branch = gives all the branches(main = present)
+
+git branch -C -branch-name = to create new branch
+
+git checkout -branch-name = to shift to newly created branch
+
+git branch = to show on which branch, you are currently on
+
+git add .
+
+fit commit -m "-message"
+
+git push origin HEAD = to push the changes to newly created branch
