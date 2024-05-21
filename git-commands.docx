@@ -59,7 +59,9 @@ git log --oneline = display all the commit messages belonging to that repo
 
 git reset --hard Head~1 = to go back to previous comitted changes
 
-git commit --ammend = to edit the previous commit message
+git commit --ammend = to edit the previous commit message,
+
+git pull= for better result
 
 git commit = opens editor to allow user to write commit message 
 
