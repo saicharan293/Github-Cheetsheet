@@ -5,6 +5,8 @@ user commands:
 --------------
 git config --global user.name '-username'
 git config --global user.email '-email'
+git config --global core.editor "code --wait --new-window" = to set vs code as code editor for git credentials
+git config --edit --global = to display username and email in an editor
 
 
 Fresh Repository
