@@ -4,8 +4,11 @@ commands
 user commands:
 --------------
 git config --global user.name '-username'
+
 git config --global user.email '-email'
+
 git config --global core.editor "code --wait --new-window" = to set vs code as code editor for git credentials
+
 git config --edit --global = to display username and email in an editor
 
 
@@ -55,4 +58,8 @@ common commands:
 git log --oneline = display all the commit messages belonging to that repo
 
 git reset --hard Head~1 = to go back to previous comitted changes
+
+git commit --ammend = to edit the previous commit message
+
+git commit = opens editor to allow user to write commit message 
 
