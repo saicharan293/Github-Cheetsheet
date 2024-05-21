@@ -1,6 +1,12 @@
 commands
 --------
 
+user commands:
+--------------
+git config --global user.name '-username'
+git config --global user.email '-email'
+
+
 Fresh Repository
 ----------------
 git init
@@ -40,3 +46,11 @@ git add .
 fit commit -m "-message"
 
 git push origin HEAD = to push the changes to newly created branch
+
+common commands:
+---------------
+
+git log --oneline = display all the commit messages belonging to that repo
+
+git reset --hard Head~1 = to go back to previous comitted changes
+
