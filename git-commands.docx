@@ -38,7 +38,7 @@ git push -u origin main
 Branching the Existing Repository:
 ----------------------------------
 
-git branch = gives all the branches(main = present)
+git branch -r = gives all the branches(main = present)
 
 git branch -C -branch-name = to create new branch
 
