@@ -52,6 +52,8 @@ fit commit -m "-message"
 
 git push origin HEAD = to push the changes to newly created branch
 
+git clone -b -branch-name -url = to clone the branch
+
 common commands:
 ---------------
 
