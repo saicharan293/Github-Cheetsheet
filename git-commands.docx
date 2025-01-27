@@ -59,7 +59,7 @@ common commands:
 
 git log --oneline = display all the commit messages belonging to that repo
 
-git reset --hard Head~1 = to go back to previous comitted changes
+git reset --hard Head~1 = to undo the previous comitted changes and bring back the last committed code
 
 git commit --ammend = to edit the previous commit message,
 
