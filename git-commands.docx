@@ -67,3 +67,7 @@ git pull= for better result
 
 git commit = opens editor to allow user to write commit message 
 
+git reset --soft HEAD~1 = to remove the last commit and bring the committed code back to the staging area
+
+git log --graph --decorate = gives the pictorial representation of any branch starting from its origin to the latest commit
+
